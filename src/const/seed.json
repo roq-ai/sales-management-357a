@@ -1,0 +1,1482 @@
+[
+  {
+    "salesinvoice": [
+      {
+        "id": "476bd303-a0ba-4e2f-95b9-ac9879bac44b",
+        "created_at": "2023-10-09T06:10:50.271Z",
+        "updated_at": "2023-10-08T15:24:06.678Z",
+        "subtotal": 0.5159484406467527,
+        "vat": 0.8679945599287748,
+        "total": 0.6142631627153605,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78c201ce-4c17-49ba-a224-acb0e78f46f3",
+        "created_at": "2023-10-08T22:03:39.534Z",
+        "updated_at": "2023-10-09T07:22:27.108Z",
+        "subtotal": 0.5777024817653,
+        "vat": 0.8557077152654529,
+        "total": 0.37839267076924443,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b20a3c6-72ab-49da-9fc5-b4a852900b8c",
+        "created_at": "2023-10-09T06:26:09.655Z",
+        "updated_at": "2023-10-09T08:53:39.805Z",
+        "subtotal": 0.9808000226039439,
+        "vat": 0.7262462959624827,
+        "total": 0.28670827439054847,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c513b6c9-7b64-4977-a919-97d89ac9fe2b",
+        "created_at": "2023-10-09T13:03:11.335Z",
+        "updated_at": "2023-10-09T03:19:09.002Z",
+        "subtotal": 0.1400641098152846,
+        "vat": 0.59019387466833,
+        "total": 0.5708331624045968,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4319e0b5-f635-4ed1-9287-1cc19d852386",
+        "created_at": "2023-10-08T21:54:09.567Z",
+        "updated_at": "2023-10-09T00:28:38.213Z",
+        "subtotal": 0.5644398911390454,
+        "vat": 0.19899049308151007,
+        "total": 0.24891872867010534,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "746011d4-3f18-409a-ad32-91636279bb55",
+        "created_at": "2023-10-08T20:05:26.690Z",
+        "updated_at": "2023-10-08T21:20:18.139Z",
+        "item": "Product A",
+        "unitprice": 0.39186485623940825,
+        "qty": 0.45641197985969484,
+        "total": 0.66856170585379,
+        "salesinvoice_id": "476bd303-a0ba-4e2f-95b9-ac9879bac44b"
+      },
+      {
+        "id": "8f28ea28-3256-484d-9adf-992bdef13945",
+        "created_at": "2023-10-09T07:56:51.451Z",
+        "updated_at": "2023-10-09T00:21:09.269Z",
+        "item": "Product B",
+        "unitprice": 0.09629413764923811,
+        "qty": 0.5026315271388739,
+        "total": 0.12426939234137535,
+        "salesinvoice_id": "c513b6c9-7b64-4977-a919-97d89ac9fe2b"
+      },
+      {
+        "id": "df431e2f-de35-473d-bf87-cdfc5ca95190",
+        "created_at": "2023-10-09T06:18:25.537Z",
+        "updated_at": "2023-10-09T11:17:21.347Z",
+        "item": "Product C",
+        "unitprice": 0.12644004495814443,
+        "qty": 0.5507417151238769,
+        "total": 0.9293188073206693,
+        "salesinvoice_id": "c513b6c9-7b64-4977-a919-97d89ac9fe2b"
+      },
+      {
+        "id": "442ed474-c9f9-4dbc-8564-26778df14ba9",
+        "created_at": "2023-10-09T06:15:31.077Z",
+        "updated_at": "2023-10-08T18:12:40.636Z",
+        "item": "Product D",
+        "unitprice": 0.6780276065692306,
+        "qty": 0.26708168839104474,
+        "total": 0.6095984091516584,
+        "salesinvoice_id": "78c201ce-4c17-49ba-a224-acb0e78f46f3"
+      },
+      {
+        "id": "804e114b-8be9-4559-9009-30346dce8419",
+        "created_at": "2023-10-09T13:03:43.419Z",
+        "updated_at": "2023-10-08T23:04:47.579Z",
+        "item": "Product E",
+        "unitprice": 0.7791764256544411,
+        "qty": 0.21448916802182794,
+        "total": 0.6653008598368615,
+        "salesinvoice_id": "78c201ce-4c17-49ba-a224-acb0e78f46f3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "57afb8f4-11c2-49e9-bbf3-debef8154fa3",
+        "email": "Samir.Kunde75@roq.tech",
+        "firstName": "Oren",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/225.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3e8cdfd-b690-45c1-ba2c-53ac94110ce8",
+        "email": "Leda.Ebert@roq.tech",
+        "firstName": "Sim",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72419286",
+        "tenantId": null
+      },
+      {
+        "reference": "94f368ce-de2e-43eb-8a13-6df3a374cf1c",
+        "email": "Carmine.Leannon54@roq.tech",
+        "firstName": "Toy",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7884237",
+        "tenantId": null
+      },
+      {
+        "reference": "f97c9930-d531-4cdf-8fb5-74bf38bbcbd7",
+        "email": "Makayla89@roq.tech",
+        "firstName": "Horacio",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/500.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e33836c6-f868-459a-afad-ae867c00a7a7",
+        "email": "Gregorio15@roq.tech",
+        "firstName": "Margaret",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80492082",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "462ef4cc-acc8-4d06-8794-2a8126699495",
+        "created_at": "2023-10-09T04:18:16.517Z",
+        "updated_at": "2023-10-09T07:05:22.857Z",
+        "subtotal": 0.15948317316360772,
+        "vat": 0.582937948172912,
+        "total": 0.9686459829099476,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61271d8c-d023-4dd7-a39f-636bfb4d1bb1",
+        "created_at": "2023-10-09T07:22:16.367Z",
+        "updated_at": "2023-10-08T23:09:25.852Z",
+        "subtotal": 0.26879692170768976,
+        "vat": 0.417112446622923,
+        "total": 0.04658936848863959,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c12fc5a-d935-47c5-82fb-09fcd4869529",
+        "created_at": "2023-10-09T05:43:23.569Z",
+        "updated_at": "2023-10-08T22:19:39.011Z",
+        "subtotal": 0.6124573529232293,
+        "vat": 0.2525129106361419,
+        "total": 0.949972036993131,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6719f445-fb8a-4a52-b039-9aeab77344be",
+        "created_at": "2023-10-09T02:15:00.500Z",
+        "updated_at": "2023-10-08T22:09:00.965Z",
+        "subtotal": 0.5352950589731336,
+        "vat": 0.19106862880289555,
+        "total": 0.03933848952874541,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ce376bf-6a31-4748-b014-16b568c1734c",
+        "created_at": "2023-10-09T10:36:36.406Z",
+        "updated_at": "2023-10-09T10:55:20.087Z",
+        "subtotal": 0.3017017371021211,
+        "vat": 0.07722630631178617,
+        "total": 0.31840986711904407,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "4b012305-28b3-4887-9203-702b0a8cef18",
+        "created_at": "2023-10-09T10:04:39.326Z",
+        "updated_at": "2023-10-09T12:07:47.722Z",
+        "item": "Product A",
+        "unitprice": 0.38279168331064284,
+        "qty": 0.48374527716077864,
+        "total": 0.3947781245224178,
+        "salesinvoice_id": "462ef4cc-acc8-4d06-8794-2a8126699495"
+      },
+      {
+        "id": "72515cbd-7b30-4f09-96c0-571f57af127e",
+        "created_at": "2023-10-08T16:37:22.142Z",
+        "updated_at": "2023-10-08T18:00:37.665Z",
+        "item": "Product B",
+        "unitprice": 0.7662452412769198,
+        "qty": 0.2170028225518763,
+        "total": 0.30360583891160786,
+        "salesinvoice_id": "462ef4cc-acc8-4d06-8794-2a8126699495"
+      },
+      {
+        "id": "f19467cc-da04-4e16-afff-6bc0f7356848",
+        "created_at": "2023-10-09T00:53:00.757Z",
+        "updated_at": "2023-10-08T15:05:00.491Z",
+        "item": "Product C",
+        "unitprice": 0.7916657587047666,
+        "qty": 0.32710706582292914,
+        "total": 0.878242643782869,
+        "salesinvoice_id": "462ef4cc-acc8-4d06-8794-2a8126699495"
+      },
+      {
+        "id": "79d3d439-c654-419b-b61c-0db0bb2ca4b1",
+        "created_at": "2023-10-09T00:29:01.534Z",
+        "updated_at": "2023-10-09T00:51:43.122Z",
+        "item": "Product D",
+        "unitprice": 0.27973094698973,
+        "qty": 0.005704000825062394,
+        "total": 0.6096994946710765,
+        "salesinvoice_id": "6ce376bf-6a31-4748-b014-16b568c1734c"
+      },
+      {
+        "id": "a8f3d53f-aa77-4825-9bc3-7f9600c75f3d",
+        "created_at": "2023-10-09T05:15:03.500Z",
+        "updated_at": "2023-10-08T23:35:18.788Z",
+        "item": "Product E",
+        "unitprice": 0.8267957395873964,
+        "qty": 0.1783690471202135,
+        "total": 0.8853268229868263,
+        "salesinvoice_id": "61271d8c-d023-4dd7-a39f-636bfb4d1bb1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c4abd0fa-038d-4bce-b75f-0ad0ae750cda",
+        "email": "Grace_Baumbach@roq.tech",
+        "firstName": "Avery",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/705.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94e9d900-0f81-45fc-a3c8-7f8e955fb0f2",
+        "email": "Elyse.Schumm@roq.tech",
+        "firstName": "Lorenz",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1035.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03843e7b-af6d-478a-ad0a-8b650963a417",
+        "email": "Sonia.Vandervort36@roq.tech",
+        "firstName": "Jed",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e457b01-b780-4135-a629-1752d1e76f0d",
+        "email": "Talon88@roq.tech",
+        "firstName": "Lora",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26531249",
+        "tenantId": null
+      },
+      {
+        "reference": "e1dae284-82b6-4f6e-98ce-28549788717d",
+        "email": "Federico_Hintz@roq.tech",
+        "firstName": "Marlee",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1038.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "dd2c158f-bd43-4315-8cb2-85e79a5eb8c0",
+        "created_at": "2023-10-08T21:54:50.239Z",
+        "updated_at": "2023-10-08T23:37:31.928Z",
+        "subtotal": 0.7415383888874203,
+        "vat": 0.6419300984125584,
+        "total": 0.5523829604499042,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0493667-f088-40a4-9a9b-8a54c6d55ee2",
+        "created_at": "2023-10-08T15:20:59.019Z",
+        "updated_at": "2023-10-08T23:25:19.126Z",
+        "subtotal": 0.29792370717041194,
+        "vat": 0.5647332379594445,
+        "total": 0.39153840066865087,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21100841-7ea0-432e-a1e3-47b570bdd9f1",
+        "created_at": "2023-10-08T14:11:15.366Z",
+        "updated_at": "2023-10-09T13:41:21.496Z",
+        "subtotal": 0.4011235593352467,
+        "vat": 0.7881567217409611,
+        "total": 0.3550431663170457,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aafdc2d5-436e-4c8e-9731-35ce8a29dafe",
+        "created_at": "2023-10-09T00:00:06.106Z",
+        "updated_at": "2023-10-09T04:42:26.095Z",
+        "subtotal": 0.27813421352766454,
+        "vat": 0.6616636218968779,
+        "total": 0.8934478091541678,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad192dc0-a9f5-41f5-86a7-52da91d61057",
+        "created_at": "2023-10-09T01:22:16.834Z",
+        "updated_at": "2023-10-09T00:31:25.459Z",
+        "subtotal": 0.9876290247775614,
+        "vat": 0.7896721854340285,
+        "total": 0.06876418367028236,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "b42d8396-3c4c-49da-bce3-0a3e41e6f905",
+        "created_at": "2023-10-08T16:17:49.275Z",
+        "updated_at": "2023-10-09T09:15:54.293Z",
+        "item": "Product A",
+        "unitprice": 0.4242656009737402,
+        "qty": 0.0330894966609776,
+        "total": 0.11821555416099727,
+        "salesinvoice_id": "a0493667-f088-40a4-9a9b-8a54c6d55ee2"
+      },
+      {
+        "id": "01608d72-f7e7-4993-a2cf-47ccf5ce2026",
+        "created_at": "2023-10-08T21:03:14.361Z",
+        "updated_at": "2023-10-08T14:17:50.201Z",
+        "item": "Product B",
+        "unitprice": 0.6640471799764782,
+        "qty": 0.3619762072339654,
+        "total": 0.2486903090029955,
+        "salesinvoice_id": "aafdc2d5-436e-4c8e-9731-35ce8a29dafe"
+      },
+      {
+        "id": "b5fe217b-9307-44f8-baa3-aff47f4a74d8",
+        "created_at": "2023-10-08T23:16:04.573Z",
+        "updated_at": "2023-10-08T18:37:51.403Z",
+        "item": "Product C",
+        "unitprice": 0.21962505229748785,
+        "qty": 0.3378977030515671,
+        "total": 0.9017468730453402,
+        "salesinvoice_id": "ad192dc0-a9f5-41f5-86a7-52da91d61057"
+      },
+      {
+        "id": "e4e7e75b-4f44-4ee9-9bad-68a6e9649648",
+        "created_at": "2023-10-09T09:18:37.101Z",
+        "updated_at": "2023-10-09T11:37:46.800Z",
+        "item": "Product D",
+        "unitprice": 0.1296529236715287,
+        "qty": 0.41468551475554705,
+        "total": 0.9292815234512091,
+        "salesinvoice_id": "21100841-7ea0-432e-a1e3-47b570bdd9f1"
+      },
+      {
+        "id": "18495e7b-e617-463a-9a24-0ea1b2d8bdc7",
+        "created_at": "2023-10-08T16:49:41.579Z",
+        "updated_at": "2023-10-09T01:23:38.177Z",
+        "item": "Product E",
+        "unitprice": 0.7260557576082647,
+        "qty": 0.17377725383266807,
+        "total": 0.9796824515797198,
+        "salesinvoice_id": "ad192dc0-a9f5-41f5-86a7-52da91d61057"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3b05ec3c-d797-4494-a750-123fb37feb77",
+        "email": "Karianne_Grady87@roq.tech",
+        "firstName": "Jadyn",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97584691",
+        "tenantId": null
+      },
+      {
+        "reference": "f504dbe0-f86a-46fe-8f6e-17dbd74078ef",
+        "email": "Casimir_Pagac7@roq.tech",
+        "firstName": "Yadira",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1232.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba40010b-cd7b-42a3-be99-0dde4092ca52",
+        "email": "Jamie.Haag@roq.tech",
+        "firstName": "Shanie",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/610.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ddb07e5-caf4-4993-a508-de212585c298",
+        "email": "Mckayla86@roq.tech",
+        "firstName": "Raegan",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/83.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96ecf83f-5064-419d-aad7-370194535096",
+        "email": "Abelardo.Streich@roq.tech",
+        "firstName": "Terrell",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "93bb4885-e927-4b8c-b3a7-2709a9328d2a",
+        "created_at": "2023-10-08T23:21:40.735Z",
+        "updated_at": "2023-10-08T21:26:28.748Z",
+        "subtotal": 0.4869663284625858,
+        "vat": 0.9266316795255989,
+        "total": 0.14682568004354835,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27826826-0d92-4c5c-abb8-a79db22e3811",
+        "created_at": "2023-10-09T04:22:55.512Z",
+        "updated_at": "2023-10-08T14:42:16.529Z",
+        "subtotal": 0.7479782025329769,
+        "vat": 0.5183416355866939,
+        "total": 0.9727849632035941,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dba71988-3da7-4f04-9a55-fd3202bb41c3",
+        "created_at": "2023-10-08T23:50:39.811Z",
+        "updated_at": "2023-10-09T11:16:23.459Z",
+        "subtotal": 0.9470765986479819,
+        "vat": 0.7300769586581737,
+        "total": 0.6963353538885713,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "141f44c2-c178-49bd-8bae-8d81c1d1ada9",
+        "created_at": "2023-10-09T07:34:31.918Z",
+        "updated_at": "2023-10-09T13:33:48.739Z",
+        "subtotal": 0.8040209596510977,
+        "vat": 0.37872868217527866,
+        "total": 0.553265173221007,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88181662-197e-4c60-8e9e-acf24e4afd58",
+        "created_at": "2023-10-09T05:07:52.238Z",
+        "updated_at": "2023-10-09T01:55:15.674Z",
+        "subtotal": 0.9692286041099578,
+        "vat": 0.2497493401169777,
+        "total": 0.2621024406980723,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "7150bcb1-deae-4c94-bacd-b0fe517b44fe",
+        "created_at": "2023-10-09T08:35:23.098Z",
+        "updated_at": "2023-10-09T04:03:35.611Z",
+        "item": "iPhone",
+        "unitprice": 0.2829981385730207,
+        "qty": 0.29921438731253147,
+        "total": 0.07456172839738429,
+        "salesinvoice_id": "dba71988-3da7-4f04-9a55-fd3202bb41c3"
+      },
+      {
+        "id": "eaf36d93-e29e-487b-ab57-5164824baa19",
+        "created_at": "2023-10-08T20:31:15.634Z",
+        "updated_at": "2023-10-09T12:45:11.660Z",
+        "item": "Samsung TV",
+        "unitprice": 0.6706212442368269,
+        "qty": 0.8711649042088538,
+        "total": 0.705443877261132,
+        "salesinvoice_id": "141f44c2-c178-49bd-8bae-8d81c1d1ada9"
+      },
+      {
+        "id": "08486be5-949c-4a4e-b90e-d4965af61453",
+        "created_at": "2023-10-09T04:03:05.212Z",
+        "updated_at": "2023-10-08T16:03:27.957Z",
+        "item": "Sony PlayStation",
+        "unitprice": 0.19291174155659974,
+        "qty": 0.399615871720016,
+        "total": 0.6042561018839478,
+        "salesinvoice_id": "93bb4885-e927-4b8c-b3a7-2709a9328d2a"
+      },
+      {
+        "id": "163297cc-6ac1-4dad-b14f-abb75a76c881",
+        "created_at": "2023-10-08T15:49:48.300Z",
+        "updated_at": "2023-10-09T08:22:47.913Z",
+        "item": "Nike Shoes",
+        "unitprice": 0.7003929952625185,
+        "qty": 0.7854867060668766,
+        "total": 0.4944934230297804,
+        "salesinvoice_id": "93bb4885-e927-4b8c-b3a7-2709a9328d2a"
+      },
+      {
+        "id": "a1506e65-fce6-40de-9446-677f3e70bb2c",
+        "created_at": "2023-10-08T15:22:23.419Z",
+        "updated_at": "2023-10-09T13:45:42.474Z",
+        "item": "Canon Camera",
+        "unitprice": 0.14883368695154786,
+        "qty": 0.2676398989278823,
+        "total": 0.040876951068639755,
+        "salesinvoice_id": "27826826-0d92-4c5c-abb8-a79db22e3811"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "85cee174-8bed-429c-90e0-296d6a45e335",
+        "email": "Justen.Jacobi39@roq.tech",
+        "firstName": "Lorna",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/201.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "980a0ac2-bbc3-4b25-8ba5-9d9dd3a50a6e",
+        "email": "Annamae16@roq.tech",
+        "firstName": "Virginie",
+        "lastName": "Okuneva-Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1032690",
+        "tenantId": null
+      },
+      {
+        "reference": "2104d2de-e11b-4e74-bcb3-953bb46652c6",
+        "email": "Yadira.Stehr@roq.tech",
+        "firstName": "Joanny",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98208891",
+        "tenantId": null
+      },
+      {
+        "reference": "3810163c-b0ca-4108-a87b-7730dfb3e070",
+        "email": "Sydnie45@roq.tech",
+        "firstName": "Cody",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81874217",
+        "tenantId": null
+      },
+      {
+        "reference": "f5cadbaa-02c6-46cd-ab69-6e94f4f20782",
+        "email": "Cecilia.Bayer45@roq.tech",
+        "firstName": "Ned",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89063155",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "3c020dec-ce41-4579-b5ad-6494fe622bf3",
+        "created_at": "2023-10-09T09:17:16.239Z",
+        "updated_at": "2023-10-09T08:07:44.002Z",
+        "subtotal": 0.4079917096532881,
+        "vat": 0.5761708591599017,
+        "total": 0.1372277825139463,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dd20656-e2be-413b-9fbe-82cf70b42b6d",
+        "created_at": "2023-10-08T21:08:11.203Z",
+        "updated_at": "2023-10-09T12:04:35.851Z",
+        "subtotal": 0.6074448216240853,
+        "vat": 0.2631738968193531,
+        "total": 0.9965517837554216,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8071b9fc-eed7-4e73-b3dd-3964264f2cbd",
+        "created_at": "2023-10-09T10:30:34.575Z",
+        "updated_at": "2023-10-08T20:24:17.144Z",
+        "subtotal": 0.7977881918195635,
+        "vat": 0.9316482483409345,
+        "total": 0.31347508216276765,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1913c9aa-4626-4dca-bcf2-5c48f53a7aec",
+        "created_at": "2023-10-08T18:01:55.163Z",
+        "updated_at": "2023-10-09T00:18:46.628Z",
+        "subtotal": 0.15972022712230682,
+        "vat": 0.9017581734806299,
+        "total": 0.8538265130482614,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28533ce1-395d-4ef3-b8d0-ab4f653a0551",
+        "created_at": "2023-10-08T19:02:17.786Z",
+        "updated_at": "2023-10-08T16:13:20.820Z",
+        "subtotal": 0.3752423939295113,
+        "vat": 0.6817124045919627,
+        "total": 0.032225224655121565,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "7e312153-0135-4d9b-aed3-e331c1c700ba",
+        "created_at": "2023-10-09T02:08:44.006Z",
+        "updated_at": "2023-10-09T11:38:29.221Z",
+        "item": "Product A",
+        "unitprice": 0.9183934589382261,
+        "qty": 0.4032413703389466,
+        "total": 0.7868133748415858,
+        "salesinvoice_id": "28533ce1-395d-4ef3-b8d0-ab4f653a0551"
+      },
+      {
+        "id": "1daaed10-e726-45b5-a8c1-5a5ba69c6ee8",
+        "created_at": "2023-10-09T13:44:36.181Z",
+        "updated_at": "2023-10-08T19:28:52.183Z",
+        "item": "Product B",
+        "unitprice": 0.3160082786343992,
+        "qty": 0.3939518048427999,
+        "total": 0.6574397743679583,
+        "salesinvoice_id": "3c020dec-ce41-4579-b5ad-6494fe622bf3"
+      },
+      {
+        "id": "5c06de2e-8723-490d-8c77-0ef2b499dc48",
+        "created_at": "2023-10-08T15:49:27.847Z",
+        "updated_at": "2023-10-09T04:50:43.834Z",
+        "item": "Product C",
+        "unitprice": 0.4121634971816093,
+        "qty": 0.18778750183992088,
+        "total": 0.005836496828123927,
+        "salesinvoice_id": "8dd20656-e2be-413b-9fbe-82cf70b42b6d"
+      },
+      {
+        "id": "dc06dcd4-f5d3-4e04-8bad-7cc051a42b61",
+        "created_at": "2023-10-09T09:00:21.607Z",
+        "updated_at": "2023-10-08T15:38:45.211Z",
+        "item": "Product D",
+        "unitprice": 0.44237888790667057,
+        "qty": 0.4428365670610219,
+        "total": 0.02465063869021833,
+        "salesinvoice_id": "28533ce1-395d-4ef3-b8d0-ab4f653a0551"
+      },
+      {
+        "id": "9042cc10-5069-4a30-8c96-0cd302188838",
+        "created_at": "2023-10-09T06:34:51.033Z",
+        "updated_at": "2023-10-08T13:57:49.318Z",
+        "item": "Product E",
+        "unitprice": 0.23767507495358586,
+        "qty": 0.9231737379450351,
+        "total": 0.3506287403870374,
+        "salesinvoice_id": "8071b9fc-eed7-4e73-b3dd-3964264f2cbd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "38053340-24f1-4992-a38f-bccfed0e1426",
+        "email": "King74@roq.tech",
+        "firstName": "Evalyn",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32665328",
+        "tenantId": null
+      },
+      {
+        "reference": "c160d110-c1b7-487d-82f5-4574cf687027",
+        "email": "Rebekah.Padberg-Strosin49@roq.tech",
+        "firstName": "Alexandre",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66182873",
+        "tenantId": null
+      },
+      {
+        "reference": "7706428f-a0a1-49d7-a6b7-174e106d1a0a",
+        "email": "Janet_Block36@roq.tech",
+        "firstName": "Johnathon",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83045265",
+        "tenantId": null
+      },
+      {
+        "reference": "f7a7712f-b6db-4ab9-92fc-78275412ccc6",
+        "email": "Octavia.Little70@roq.tech",
+        "firstName": "Marisa",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "406ec4be-a884-4783-ac58-7226180b0140",
+        "email": "Gwen_Barton83@roq.tech",
+        "firstName": "Marie",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51044676",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "b84d4453-5a76-47f0-9b8c-f23c9d5e5be6",
+        "created_at": "2023-10-09T02:57:28.110Z",
+        "updated_at": "2023-10-08T16:54:37.219Z",
+        "subtotal": 0.966639825841412,
+        "vat": 0.9418584702070802,
+        "total": 0.5190922538749874,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "075a80b6-e9c2-4e39-8156-957b2d05baed",
+        "created_at": "2023-10-09T01:51:17.965Z",
+        "updated_at": "2023-10-08T16:16:40.291Z",
+        "subtotal": 0.8562917353119701,
+        "vat": 0.9793277562130243,
+        "total": 0.927234606584534,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9be84f08-215c-4e89-b7a0-5fe0e69c82d6",
+        "created_at": "2023-10-09T07:07:39.383Z",
+        "updated_at": "2023-10-08T19:48:41.906Z",
+        "subtotal": 0.5288009620271623,
+        "vat": 0.4887966592796147,
+        "total": 0.8924202227499336,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23b08320-f7cb-46c2-a51c-cfa32654e5b7",
+        "created_at": "2023-10-08T16:49:15.464Z",
+        "updated_at": "2023-10-08T21:27:27.743Z",
+        "subtotal": 0.6318122122902423,
+        "vat": 0.9470429448410869,
+        "total": 0.6156850489787757,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c3345cb-810c-41ca-aed8-5a7e10aabd38",
+        "created_at": "2023-10-09T00:58:34.786Z",
+        "updated_at": "2023-10-09T06:16:00.554Z",
+        "subtotal": 0.1102835952769965,
+        "vat": 0.7678677903022617,
+        "total": 0.5485227999743074,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "1b5c05f7-03b5-4cb9-b7e4-13ce42b6e1d1",
+        "created_at": "2023-10-09T06:25:54.973Z",
+        "updated_at": "2023-10-08T18:17:20.456Z",
+        "item": "Product A",
+        "unitprice": 0.3340770599897951,
+        "qty": 0.6295761584769934,
+        "total": 0.9981200955808163,
+        "salesinvoice_id": "1c3345cb-810c-41ca-aed8-5a7e10aabd38"
+      },
+      {
+        "id": "bb78bb14-3c7b-4070-8640-ca1c4dac6001",
+        "created_at": "2023-10-09T09:02:46.533Z",
+        "updated_at": "2023-10-09T09:47:08.725Z",
+        "item": "Product B",
+        "unitprice": 0.8519873931072652,
+        "qty": 0.05462384503334761,
+        "total": 0.7886408735066652,
+        "salesinvoice_id": "075a80b6-e9c2-4e39-8156-957b2d05baed"
+      },
+      {
+        "id": "15078af8-74c7-4c0b-9b39-c954f8065673",
+        "created_at": "2023-10-09T13:00:22.957Z",
+        "updated_at": "2023-10-09T01:26:42.318Z",
+        "item": "Product C",
+        "unitprice": 0.8831528204027563,
+        "qty": 0.25243617966771126,
+        "total": 0.665789338061586,
+        "salesinvoice_id": "9be84f08-215c-4e89-b7a0-5fe0e69c82d6"
+      },
+      {
+        "id": "7cd29c56-0374-4e7f-93d9-01f9ea08492e",
+        "created_at": "2023-10-09T12:55:31.888Z",
+        "updated_at": "2023-10-09T07:14:47.444Z",
+        "item": "Product D",
+        "unitprice": 0.11826816177926958,
+        "qty": 0.5792498774826527,
+        "total": 0.9657264563720673,
+        "salesinvoice_id": "23b08320-f7cb-46c2-a51c-cfa32654e5b7"
+      },
+      {
+        "id": "a10a2cdb-7313-4145-bfc4-3333728c32ab",
+        "created_at": "2023-10-09T00:02:42.558Z",
+        "updated_at": "2023-10-09T04:56:14.596Z",
+        "item": "Product E",
+        "unitprice": 0.3509426563978195,
+        "qty": 0.6134255500510335,
+        "total": 0.9686254404950887,
+        "salesinvoice_id": "9be84f08-215c-4e89-b7a0-5fe0e69c82d6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "84293305-57c7-4cb3-aa93-06da4b7b047c",
+        "email": "Susanna_Carter36@roq.tech",
+        "firstName": "Domenic",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6064b76f-0bee-46ad-9d92-1fa8dabd56d7",
+        "email": "Mose.Braun-Durgan@roq.tech",
+        "firstName": "Ron",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96296803",
+        "tenantId": null
+      },
+      {
+        "reference": "55291627-079f-4ab5-8fe9-7bf47b4d8b10",
+        "email": "Misty.Schoen@roq.tech",
+        "firstName": "Jayde",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50625126",
+        "tenantId": null
+      },
+      {
+        "reference": "3b3529d9-0b14-44cd-9fc6-de5992cd2f30",
+        "email": "Jennifer10@roq.tech",
+        "firstName": "Nicholaus",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2617514",
+        "tenantId": null
+      },
+      {
+        "reference": "45891b1e-2443-4124-80f2-77b3dea1294e",
+        "email": "Lyric_Dicki@roq.tech",
+        "firstName": "Dena",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "22c7f5e5-43f9-429e-a8e7-0ca3f3baa822",
+        "created_at": "2023-10-08T16:01:56.139Z",
+        "updated_at": "2023-10-09T00:44:25.356Z",
+        "subtotal": 0.8493930976837873,
+        "vat": 0.7414977056905627,
+        "total": 0.5678415037691593,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcc3d9dc-85a1-4407-9ca8-8e92d8c77137",
+        "created_at": "2023-10-09T08:52:07.558Z",
+        "updated_at": "2023-10-09T06:57:03.258Z",
+        "subtotal": 0.5578625143971294,
+        "vat": 0.6312918954063207,
+        "total": 0.621194644132629,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ceda7148-7320-4135-ba7f-6a115c5e1e48",
+        "created_at": "2023-10-08T18:27:04.643Z",
+        "updated_at": "2023-10-08T20:01:38.758Z",
+        "subtotal": 0.2540224981494248,
+        "vat": 0.37740560551173985,
+        "total": 0.36213280400261283,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04e0a839-0337-4fd3-9620-7f240ee30d4d",
+        "created_at": "2023-10-09T09:07:46.884Z",
+        "updated_at": "2023-10-08T15:52:34.574Z",
+        "subtotal": 0.7996524435002357,
+        "vat": 0.8278491059318185,
+        "total": 0.7597601937595755,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f088077-632f-412b-a345-de22cbd9250f",
+        "created_at": "2023-10-09T10:13:54.979Z",
+        "updated_at": "2023-10-08T21:46:28.668Z",
+        "subtotal": 0.36874345620162785,
+        "vat": 0.8979460631962866,
+        "total": 0.7992615238763392,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "b4fdf1e7-bdca-432c-91d4-abdc2efe6f72",
+        "created_at": "2023-10-09T04:30:55.812Z",
+        "updated_at": "2023-10-08T15:29:31.080Z",
+        "item": "iPhone",
+        "unitprice": 0.3556054476648569,
+        "qty": 0.8539206171408296,
+        "total": 0.9473084132187068,
+        "salesinvoice_id": "1f088077-632f-412b-a345-de22cbd9250f"
+      },
+      {
+        "id": "13400099-5095-4a9d-b7b4-f8d87c88af70",
+        "created_at": "2023-10-08T18:47:34.067Z",
+        "updated_at": "2023-10-08T23:28:54.951Z",
+        "item": "Samsung TV",
+        "unitprice": 0.3936081095598638,
+        "qty": 0.955174729693681,
+        "total": 0.5331798284314573,
+        "salesinvoice_id": "fcc3d9dc-85a1-4407-9ca8-8e92d8c77137"
+      },
+      {
+        "id": "1a6b0ab6-70fd-4218-b74f-fe4306246aa0",
+        "created_at": "2023-10-08T22:52:06.728Z",
+        "updated_at": "2023-10-08T20:06:45.415Z",
+        "item": "Nike Shoes",
+        "unitprice": 0.05792500847019255,
+        "qty": 0.7129283626563847,
+        "total": 0.1261639390140772,
+        "salesinvoice_id": "fcc3d9dc-85a1-4407-9ca8-8e92d8c77137"
+      },
+      {
+        "id": "9e389c3c-123a-4c43-8527-0666e39b9068",
+        "created_at": "2023-10-09T08:23:41.392Z",
+        "updated_at": "2023-10-08T22:16:14.539Z",
+        "item": "Sony PlayStation",
+        "unitprice": 0.1636040061712265,
+        "qty": 0.3013359820470214,
+        "total": 0.30271194432862103,
+        "salesinvoice_id": "fcc3d9dc-85a1-4407-9ca8-8e92d8c77137"
+      },
+      {
+        "id": "50743272-de84-48fa-9a00-7d262b81e06c",
+        "created_at": "2023-10-08T23:32:05.215Z",
+        "updated_at": "2023-10-08T15:17:29.975Z",
+        "item": "Canon Camera",
+        "unitprice": 0.8798452734481543,
+        "qty": 0.05056682019494474,
+        "total": 0.9274979662150145,
+        "salesinvoice_id": "fcc3d9dc-85a1-4407-9ca8-8e92d8c77137"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a43efbe0-44a0-475e-8d02-8e4fab745381",
+        "email": "Jasmin.Towne@roq.tech",
+        "firstName": "Tevin",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/83.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f100d08c-0f31-4565-aebd-d3a67cb4e156",
+        "email": "Kaylee75@roq.tech",
+        "firstName": "Zackary",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8666690",
+        "tenantId": null
+      },
+      {
+        "reference": "acf3935c-c28d-4aeb-90d2-2a1b6e75db62",
+        "email": "Raegan26@roq.tech",
+        "firstName": "Demario",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45753479",
+        "tenantId": null
+      },
+      {
+        "reference": "939d55c1-67c9-4670-afab-207dfc225f9d",
+        "email": "Emory_Stoltenberg@roq.tech",
+        "firstName": "Karlee",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8080162",
+        "tenantId": null
+      },
+      {
+        "reference": "32a42c7d-5fa3-49eb-970b-57b12b66719b",
+        "email": "Holly69@roq.tech",
+        "firstName": "Montana",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1112.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "9aa2d0a6-c2e8-4903-9978-aad133aca413",
+        "created_at": "2023-10-09T00:47:06.367Z",
+        "updated_at": "2023-10-08T20:30:00.351Z",
+        "subtotal": 0.6211360380984843,
+        "vat": 0.17044178280048072,
+        "total": 0.7888462743721902,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04127b2c-9b8e-41bb-a780-6ffdc6770743",
+        "created_at": "2023-10-08T23:01:03.070Z",
+        "updated_at": "2023-10-09T03:57:14.088Z",
+        "subtotal": 0.7847106487024575,
+        "vat": 0.5441844714805484,
+        "total": 0.43795889616012573,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "842f4ac9-f82d-4140-8aa0-4ba08d8367f6",
+        "created_at": "2023-10-09T04:06:30.108Z",
+        "updated_at": "2023-10-08T22:54:36.264Z",
+        "subtotal": 0.4485899186693132,
+        "vat": 0.025706005282700062,
+        "total": 0.034973497269675136,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3360133f-946f-4952-a177-c97097e7365e",
+        "created_at": "2023-10-09T07:37:10.003Z",
+        "updated_at": "2023-10-08T17:23:40.459Z",
+        "subtotal": 0.25159038440324366,
+        "vat": 0.8340802253223956,
+        "total": 0.23912348900921643,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d318491-4ab6-4cef-83ad-fd51b569c70e",
+        "created_at": "2023-10-09T08:16:39.750Z",
+        "updated_at": "2023-10-09T04:25:02.693Z",
+        "subtotal": 0.18575322488322854,
+        "vat": 0.7199673491995782,
+        "total": 0.1495215054601431,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "695396d2-ce5b-45b4-b5ee-b1aac242cab7",
+        "created_at": "2023-10-09T06:19:52.924Z",
+        "updated_at": "2023-10-08T23:26:56.610Z",
+        "item": "Product A",
+        "unitprice": 0.32047443091869354,
+        "qty": 0.13479026430286467,
+        "total": 0.9477860992774367,
+        "salesinvoice_id": "9aa2d0a6-c2e8-4903-9978-aad133aca413"
+      },
+      {
+        "id": "25415a91-ca18-41ca-ac8a-0ac2529d1dc8",
+        "created_at": "2023-10-09T02:10:09.340Z",
+        "updated_at": "2023-10-08T17:33:58.832Z",
+        "item": "Product B",
+        "unitprice": 0.7480488203000277,
+        "qty": 0.17422614735551178,
+        "total": 0.8061268154997379,
+        "salesinvoice_id": "9aa2d0a6-c2e8-4903-9978-aad133aca413"
+      },
+      {
+        "id": "e6b2d4e5-98aa-4a2f-926a-577417d0c0a7",
+        "created_at": "2023-10-08T23:37:05.584Z",
+        "updated_at": "2023-10-09T08:21:53.396Z",
+        "item": "Product C",
+        "unitprice": 0.8356333908159286,
+        "qty": 0.843085820786655,
+        "total": 0.19277376355603337,
+        "salesinvoice_id": "1d318491-4ab6-4cef-83ad-fd51b569c70e"
+      },
+      {
+        "id": "85ec42a3-a1fb-4465-a55f-b4329a677c80",
+        "created_at": "2023-10-09T05:30:46.714Z",
+        "updated_at": "2023-10-09T09:32:58.033Z",
+        "item": "Product D",
+        "unitprice": 0.415595646481961,
+        "qty": 0.5656301626004279,
+        "total": 0.8541345510166138,
+        "salesinvoice_id": "3360133f-946f-4952-a177-c97097e7365e"
+      },
+      {
+        "id": "6a2aa072-5c24-48cb-874f-52202eea7605",
+        "created_at": "2023-10-08T23:47:44.891Z",
+        "updated_at": "2023-10-08T19:46:55.760Z",
+        "item": "Product E",
+        "unitprice": 0.5692036105319858,
+        "qty": 0.720748158171773,
+        "total": 0.7843370684422553,
+        "salesinvoice_id": "3360133f-946f-4952-a177-c97097e7365e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac0b71d4-435b-4292-99e5-f7180459fe48",
+        "email": "Helena_Lindgren38@roq.tech",
+        "firstName": "Victor",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca19bdea-e3b8-4168-a963-7a4976c28a83",
+        "email": "Alana.Barton@roq.tech",
+        "firstName": "Izaiah",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40782087",
+        "tenantId": null
+      },
+      {
+        "reference": "07cd0a83-48dc-4670-846d-55948de233d3",
+        "email": "Carli.Cummerata@roq.tech",
+        "firstName": "Tito",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79328313",
+        "tenantId": null
+      },
+      {
+        "reference": "56a51775-7c09-4df5-b24c-fcd40940d825",
+        "email": "Vivienne.Feil@roq.tech",
+        "firstName": "Magdalena",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40790199",
+        "tenantId": null
+      },
+      {
+        "reference": "5e3db078-684a-48b0-abf8-964743779598",
+        "email": "Eloisa_Breitenberg@roq.tech",
+        "firstName": "Abbigail",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "002ca195-b8fd-423d-8521-51dcefbbb4c2",
+        "created_at": "2023-10-09T08:34:29.088Z",
+        "updated_at": "2023-10-08T16:53:37.196Z",
+        "subtotal": 0.21823710529133677,
+        "vat": 0.39643788198009133,
+        "total": 0.5723301987163723,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d5abc24-673c-4e0d-994c-dfaf038a49f9",
+        "created_at": "2023-10-08T22:33:16.697Z",
+        "updated_at": "2023-10-09T02:12:08.668Z",
+        "subtotal": 0.9061302316840738,
+        "vat": 0.5604187082499266,
+        "total": 0.8750351017806679,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d9d84b0-667d-44e0-ba6e-825d102dd3b8",
+        "created_at": "2023-10-09T09:58:20.171Z",
+        "updated_at": "2023-10-09T13:22:20.443Z",
+        "subtotal": 0.8008820696268231,
+        "vat": 0.4352776121813804,
+        "total": 0.2454347659368068,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e869d9ba-524c-48d1-a449-177ebee588e1",
+        "created_at": "2023-10-09T01:14:26.997Z",
+        "updated_at": "2023-10-08T19:26:43.950Z",
+        "subtotal": 0.15591796929948032,
+        "vat": 0.2797425207681954,
+        "total": 0.15172336716204882,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6f3cf97-52f0-40cb-895c-64d1f92cbd1a",
+        "created_at": "2023-10-09T01:50:24.791Z",
+        "updated_at": "2023-10-09T08:32:59.039Z",
+        "subtotal": 0.2734127747826278,
+        "vat": 0.8116706104483455,
+        "total": 0.7643760219216347,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "922d16c9-5ecd-4cb8-aac8-0466008eeabb",
+        "created_at": "2023-10-09T12:14:01.192Z",
+        "updated_at": "2023-10-09T02:15:13.072Z",
+        "item": "iPhone",
+        "unitprice": 0.13408627058379352,
+        "qty": 0.44126277486793697,
+        "total": 0.21345966425724328,
+        "salesinvoice_id": "b6f3cf97-52f0-40cb-895c-64d1f92cbd1a"
+      },
+      {
+        "id": "75314467-524f-4c95-942a-06ea52277881",
+        "created_at": "2023-10-09T03:11:13.346Z",
+        "updated_at": "2023-10-08T22:11:49.653Z",
+        "item": "Samsung TV",
+        "unitprice": 0.08134514628909528,
+        "qty": 0.4801098264288157,
+        "total": 0.8321734967175871,
+        "salesinvoice_id": "0d9d84b0-667d-44e0-ba6e-825d102dd3b8"
+      },
+      {
+        "id": "25d56ea4-85db-4f6a-9089-6fdc8bc6d45e",
+        "created_at": "2023-10-09T06:21:29.794Z",
+        "updated_at": "2023-10-09T13:33:18.132Z",
+        "item": "Nike Shoes",
+        "unitprice": 0.9411406160797924,
+        "qty": 0.40765006584115326,
+        "total": 0.08847686974331737,
+        "salesinvoice_id": "e869d9ba-524c-48d1-a449-177ebee588e1"
+      },
+      {
+        "id": "0613e8b5-d271-4a17-9620-bd765db736bd",
+        "created_at": "2023-10-09T01:36:47.379Z",
+        "updated_at": "2023-10-09T10:29:27.266Z",
+        "item": "Sony PlayStation",
+        "unitprice": 0.5062690773047507,
+        "qty": 0.051439233124256134,
+        "total": 0.21421818155795336,
+        "salesinvoice_id": "e869d9ba-524c-48d1-a449-177ebee588e1"
+      },
+      {
+        "id": "bfcb9755-96fd-4b93-b3ea-924542c9c106",
+        "created_at": "2023-10-09T08:24:02.601Z",
+        "updated_at": "2023-10-08T18:20:57.139Z",
+        "item": "MacBook Pro",
+        "unitprice": 0.15990857407450676,
+        "qty": 0.3526746309362352,
+        "total": 0.9727636273019016,
+        "salesinvoice_id": "0d9d84b0-667d-44e0-ba6e-825d102dd3b8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "945da8e9-36d7-4997-bab8-2de18a154d0f",
+        "email": "Ethan.Green@roq.tech",
+        "firstName": "Madie",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/680.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "04584d12-df18-408f-a2cf-461f314c33dd",
+        "email": "Antoinette50@roq.tech",
+        "firstName": "Eliza",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1123.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d9e2598-5718-49fe-ae73-e195719369f4",
+        "email": "Filomena_Parisian@roq.tech",
+        "firstName": "Anissa",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/596.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "00939157-13d4-4298-93e1-1ffbcaad47a7",
+        "email": "Mike36@roq.tech",
+        "firstName": "Ransom",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74620115",
+        "tenantId": null
+      },
+      {
+        "reference": "07de8f97-5ab5-4db0-a79a-a493d367cd5f",
+        "email": "Bertha76@roq.tech",
+        "firstName": "Emilie",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/41.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "salesinvoice": [
+      {
+        "id": "4d67da01-f9a7-4f44-a4aa-0473207dcb1a",
+        "created_at": "2023-10-09T13:42:50.458Z",
+        "updated_at": "2023-10-09T06:09:06.482Z",
+        "subtotal": 0.9985993707086891,
+        "vat": 0.31947708572261035,
+        "total": 0.3896558154374361,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd3a84ed-ff5a-418b-8e7f-f5b19bc0ca99",
+        "created_at": "2023-10-09T10:42:40.057Z",
+        "updated_at": "2023-10-09T03:22:14.791Z",
+        "subtotal": 0.8710261173546314,
+        "vat": 0.606483839219436,
+        "total": 0.03201342257671058,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bce439e2-abf4-48be-ab77-1cbf7bd0ef09",
+        "created_at": "2023-10-08T14:11:16.363Z",
+        "updated_at": "2023-10-09T06:39:31.279Z",
+        "subtotal": 0.9022821518592536,
+        "vat": 0.49147223914042115,
+        "total": 0.29788865544833243,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fc57391-985d-40b2-b3ae-cd60a1fe97d0",
+        "created_at": "2023-10-09T12:58:05.290Z",
+        "updated_at": "2023-10-09T08:14:41.238Z",
+        "subtotal": 0.843339555663988,
+        "vat": 0.5925061742309481,
+        "total": 0.4354068385437131,
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a87ae333-b86b-47c7-9350-78a7fd6535f0",
+        "created_at": "2023-10-09T12:34:41.951Z",
+        "updated_at": "2023-10-09T01:29:27.261Z",
+        "subtotal": 0.9687493366654962,
+        "vat": 0.8352252459153533,
+        "total": 0.3751171911135316,
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_detail": [
+      {
+        "id": "31bfa86e-decf-44bc-a319-8b6475585493",
+        "created_at": "2023-10-08T20:39:03.420Z",
+        "updated_at": "2023-10-09T13:26:41.814Z",
+        "item": "Shirt",
+        "unitprice": 0.43026425363495946,
+        "qty": 0.7895320034585893,
+        "total": 0.29650565842166543,
+        "salesinvoice_id": "2fc57391-985d-40b2-b3ae-cd60a1fe97d0"
+      },
+      {
+        "id": "316735b5-c17d-4f0b-b8fc-d48aa170756f",
+        "created_at": "2023-10-09T13:17:59.290Z",
+        "updated_at": "2023-10-09T00:44:30.061Z",
+        "item": "Shoes",
+        "unitprice": 0.542858834611252,
+        "qty": 0.06437090993858874,
+        "total": 0.2542907993774861,
+        "salesinvoice_id": "a87ae333-b86b-47c7-9350-78a7fd6535f0"
+      },
+      {
+        "id": "76a7a152-d18c-4b99-807e-b89bf8b89e93",
+        "created_at": "2023-10-08T22:50:25.055Z",
+        "updated_at": "2023-10-09T00:05:32.753Z",
+        "item": "Watch",
+        "unitprice": 0.6057245095726103,
+        "qty": 0.4611327655147761,
+        "total": 0.9687863332219422,
+        "salesinvoice_id": "fd3a84ed-ff5a-418b-8e7f-f5b19bc0ca99"
+      },
+      {
+        "id": "20a4274e-6088-43bb-8235-3f604bee23a1",
+        "created_at": "2023-10-08T19:01:06.908Z",
+        "updated_at": "2023-10-09T04:11:02.232Z",
+        "item": "Bag",
+        "unitprice": 0.1706781559623778,
+        "qty": 0.6718477110844105,
+        "total": 0.7038076177705079,
+        "salesinvoice_id": "fd3a84ed-ff5a-418b-8e7f-f5b19bc0ca99"
+      },
+      {
+        "id": "50fe3696-d9db-4430-ab72-f396a6b4c42f",
+        "created_at": "2023-10-09T03:58:52.268Z",
+        "updated_at": "2023-10-09T01:05:46.051Z",
+        "item": "Hat",
+        "unitprice": 0.4633042747154832,
+        "qty": 0.04363374458625913,
+        "total": 0.9815702997148037,
+        "salesinvoice_id": "4d67da01-f9a7-4f44-a4aa-0473207dcb1a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bd3bf35e-cf07-4ec9-8452-19d9c946b2a5",
+        "email": "Elody.Ratke12@roq.tech",
+        "firstName": "Lillian",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/930.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b0c2f56-5f8a-4d0d-85f4-4f9ec090f1d4",
+        "email": "Keara.Okuneva@roq.tech",
+        "firstName": "Sheldon",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67686554",
+        "tenantId": null
+      },
+      {
+        "reference": "a3e796d8-75b1-46ef-9c5a-ce5ff9b85458",
+        "email": "Talon80@roq.tech",
+        "firstName": "Mozelle",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46898418",
+        "tenantId": null
+      },
+      {
+        "reference": "f6a43e9c-5517-477c-b41b-8844af205a5c",
+        "email": "Orrin_Crist@roq.tech",
+        "firstName": "Vicente",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/18.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "031fad1c-43b2-4e70-bb49-17cb0a0c129e",
+        "email": "Billy.Kautzer@roq.tech",
+        "firstName": "Lorenza",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/146.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
